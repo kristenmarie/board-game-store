@@ -668,6 +668,11 @@
         1,
         null
       ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/models/review.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/kristenmkulha/Desktop/board_game_store/spec/factories.rb": [
         1,
         1,
@@ -777,6 +782,6 @@
         null
       ]
     },
-    "timestamp": 1512161152
+    "timestamp": 1512162059
   }
 }
