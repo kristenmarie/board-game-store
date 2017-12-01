@@ -651,6 +651,9 @@
         null,
         null
       ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/controllers/reviews_controller.rb": [
+
+      ],
       "/Users/kristenmkulha/Desktop/board_game_store/app/jobs/application_job.rb": [
         1,
         null
@@ -666,9 +669,11 @@
         1,
         null,
         1,
+        1,
         null
       ],
       "/Users/kristenmkulha/Desktop/board_game_store/app/models/review.rb": [
+        1,
         1,
         1,
         null
@@ -774,6 +779,20 @@
         null,
         null
       ],
+      "/Users/kristenmkulha/Desktop/board_game_store/spec/models/product_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/spec/models/review_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null
+      ],
       "/Users/kristenmkulha/Desktop/board_game_store/spec/models/user_spec.rb": [
         1,
         null,
@@ -782,6 +801,6 @@
         null
       ]
     },
-    "timestamp": 1512162059
+    "timestamp": 1512162389
   }
 }
