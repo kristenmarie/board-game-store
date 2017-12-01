@@ -668,7 +668,7 @@
         1,
         1,
         null,
-        1,
+        2,
         1,
         null
       ],
@@ -784,6 +784,18 @@
         null,
         1,
         2,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/kristenmkulha/Desktop/board_game_store/spec/models/review_spec.rb": [
@@ -801,6 +813,6 @@
         null
       ]
     },
-    "timestamp": 1512162389
+    "timestamp": 1512162756
   }
 }
