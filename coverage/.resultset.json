@@ -577,7 +577,7 @@
         1,
         null,
         1,
-        8,
+        12,
         null,
         null
       ],
@@ -601,11 +601,11 @@
         1,
         null,
         1,
-        6,
+        8,
         null,
         null,
         1,
-        5,
+        7,
         null,
         null,
         1,
@@ -652,7 +652,36 @@
         null
       ],
       "/Users/kristenmkulha/Desktop/board_game_store/app/controllers/reviews_controller.rb": [
-
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null
       ],
       "/Users/kristenmkulha/Desktop/board_game_store/app/jobs/application_job.rb": [
         1,
@@ -667,7 +696,6 @@
       "/Users/kristenmkulha/Desktop/board_game_store/app/models/product.rb": [
         1,
         1,
-        null,
         2,
         1,
         null
@@ -779,6 +807,40 @@
         null,
         null
       ],
+      "/Users/kristenmkulha/Desktop/board_game_store/spec/features/new_review_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/kristenmkulha/Desktop/board_game_store/spec/models/product_spec.rb": [
         1,
         null,
@@ -813,6 +875,6 @@
         null
       ]
     },
-    "timestamp": 1512162756
+    "timestamp": 1512167085
   }
 }
