@@ -7,3 +7,26 @@
                                               :method => "delete"} %></button>
   <% end %>
 </h1>
+
+<hr>
+<h3>
+  Reviews
+  <% if current_user %>
+    <button class="btn"> <%= link_to "Write a Review", new_product_review_path(@product) %> </button>
+  <% end %>
+</h3>
+
+<% if @product.reviews.any? %>
+  <% @product.reviews.each do |review| %>
+    <h5>
+      <%= review.heading %>
+      <% if current_user && current_user.admin %>
+      <button class="btn"><%= link_to "Delete", product_review_path(@product, review),
+                                 :data => {:confirm => "Are you sure?",
+                                                :method => "delete"} %></button>
+      <% end %>
+    </h5>
+  <% end %>
+<% else %>
+  <p> <%= @product.title %> currently has no reviews!</p>
+<% end %>
