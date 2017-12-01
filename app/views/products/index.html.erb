@@ -1,0 +1,13 @@
+<div class="landing-page-welcome">
+  <h1>Welcome to The Peoples Meeples!</h1>
+</div>
+
+<% if @products.any? %>
+  <div class="landing-page-products">
+    <ul>
+      <% @products.each do |product| %>
+        <%= link_to product.name, product_route(product) %>
+      <% end %>
+    </ul>
+  </div>
+<% end %>

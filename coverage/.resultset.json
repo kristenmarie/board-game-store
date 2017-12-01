@@ -517,14 +517,10 @@
         null,
         null
       ],
-      "/Users/kristenmkulha/Desktop/board_game_store/spec/factories/users.rb": [
-        1,
-        1,
-        null,
-        null,
-        null
-      ],
       "/Users/kristenmkulha/Desktop/board_game_store/config/routes.rb": [
+        1,
+        1,
+        null,
         1,
         1,
         null,
@@ -544,11 +540,74 @@
         1,
         null
       ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/kristenmkulha/Desktop/board_game_store/app/helpers/application_helper.rb": [
         1,
         null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/channels/application_cable/channel.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/channels/application_cable/connection.rb": [
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/controllers/products_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/jobs/application_job.rb": [
+        1,
+        null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/app/models/product.rb": [
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/kristenmkulha/Desktop/board_game_store/spec/factories/users.rb": [
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1512148552
+    "timestamp": 1512149453
   }
 }
