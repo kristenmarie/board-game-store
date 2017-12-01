@@ -21,7 +21,7 @@
     <h5>
       <%= review.heading %>
       <% if current_user && current_user.admin %>
-      <button class="btn delete-button"><%= link_to "Delete", product_review_path(@product, review),
+      <button class="btn delete-button product-delete"><%= link_to "Delete this Review", product_review_path(@product, review),
                                  :data => {:confirm => "Are you sure?",
                                                 :method => "delete"} %></button>
       <% end %>

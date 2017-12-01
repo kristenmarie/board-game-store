@@ -14,4 +14,12 @@ FactoryBot.define do
     password '123456'
     password_confirmation '123456'
   end
+
+  factory :review do
+    product_id
+    name 'Mark'
+    rating 5
+    heading 'Dripping with theme'
+    content 'Love this one'
+  end
 end
