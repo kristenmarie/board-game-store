@@ -577,7 +577,7 @@
         1,
         null,
         1,
-        0,
+        4,
         null,
         null
       ],
@@ -601,7 +601,7 @@
         1,
         null,
         1,
-        0,
+        3,
         null,
         null,
         1,
@@ -648,13 +648,6 @@
         1,
         1,
         2,
-        null,
-        null
-      ],
-      "/Users/kristenmkulha/Desktop/board_game_store/app/controllers/users_controller.rb": [
-        1,
-        1,
-        0,
         null,
         null
       ],
@@ -694,6 +687,32 @@
         null,
         null
       ],
+      "/Users/kristenmkulha/Desktop/board_game_store/spec/features/new_account_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/kristenmkulha/Desktop/board_game_store/spec/models/user_spec.rb": [
         1,
         null,
@@ -702,6 +721,6 @@
         null
       ]
     },
-    "timestamp": 1512157296
+    "timestamp": 1512158524
   }
 }
