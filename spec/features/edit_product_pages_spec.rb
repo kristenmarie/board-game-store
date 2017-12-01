@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 describe 'The product editing process' do
+
   it 'will allow admin to edit product' do
     product = FactoryBot.create(:product)
     visit edit_product_path(product)

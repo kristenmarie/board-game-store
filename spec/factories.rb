@@ -9,9 +9,9 @@ FactoryBot.define do
   end
 
   factory :user do
-    username 'admin'
-    email 'admin@admin.com'
+    username 'test'
+    email 'test@test.com'
     password '123456'
-    admin true
+    password_confirmation '123456'
   end
 end
