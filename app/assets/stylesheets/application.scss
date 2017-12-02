@@ -1,7 +1,7 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Yeseva+One');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Righteous');
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -16,11 +16,15 @@ h4 {
 }
 
 h1 {
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Righteous', cursive;
 }
 
 li {
   list-style: none;
+}
+
+form {
+  max-width: 50%;
 }
 
 a:hover {
@@ -70,7 +74,7 @@ button > a:hover {
 }
 
 .navbar-default .navbar-brand {
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Righteous', cursive;
   color: white;
   font-size: 25px;
 }
@@ -80,12 +84,7 @@ button > a:hover {
 }
 
 .navbar-default .navbar-nav > li > a {
-  font-family: 'Yeseva One', cursive;
-  color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Righteous', cursive;
   color: white;
 }
 
