@@ -28,6 +28,14 @@ a:hover {
   text-decoration: none;
 }
 
+button > a {
+  color: white;
+}
+
+button > a:hover {
+  color: grey;
+}
+
 .product {
   color: black;
 }
@@ -41,7 +49,7 @@ a:hover {
 }
 
 .btn {
-  background-color: green;
+  background-color: #7B9E87;
   color: white;
 }
 
@@ -54,7 +62,7 @@ a:hover {
 }
 
 .container-fluid {
-  background-color: #2F3061;
+  background-color: #5E747F;
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -85,16 +93,33 @@ a:hover {
   color: #D3D3D3
 }
 
+.landing-page-products {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 .panel-default > .panel-heading {
-  background-color: #A00A04;
+  background-color: #7B9E87;
   color: white;
 }
 
-.row {
+.panel-default > .panel-heading > h4 > a {
+  color: white;
+}
+
+.landing-page-welcome {
   text-align: center;
 }
 
-.welcome {
+.well {
+  margin-top: 4rem;
+}
+
+.all-products {
   text-align: center;
-  margin-bottom: 30px;
+}
+
+#all-games-h1 {
+  text-align: center;
 }

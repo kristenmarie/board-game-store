@@ -7,8 +7,25 @@
                                               :method => "delete"} %></button>
   <% end %>
 </h1>
-
 <hr>
+
+<div class="product-info">
+  <div class="row">
+    <div class="col-md-6">
+      <h3> Price: $<%= @product.price %>0</h3>
+      <h3>Players: <%= @product.players %></h3>
+      <h3>Playtime: <%= @product.playtime %></h3>
+      <h3>Publisher: <%= @product.publisher %></h3>
+    </div>
+    <div class="col-md-6">
+      <h3>Description:</h3>
+      <p><%= @product.description %></p>
+    </div>
+  </div>
+</div>
+<hr>
+
+
 <h3>
   Reviews
   <% if current_user %>
@@ -18,14 +35,20 @@
 
 <% if @product.reviews.any? %>
   <% @product.reviews.each do |review| %>
-    <h5>
-      <%= review.heading %>
-      <% if current_user && current_user.admin %>
-      <button class="btn delete-button product-delete"><%= link_to "Delete this Review", product_review_path(@product, review),
-                                 :data => {:confirm => "Are you sure?",
-                                                :method => "delete"} %></button>
-      <% end %>
-    </h5>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <strong><%= review.heading %> by <%= review.name %></strong>
+        <% if current_user && current_user.admin %>
+        <button class="btn delete-button product-delete"><%= link_to "Delete this Review", product_review_path(@product, review),
+                                   :data => {:confirm => "Are you sure?",
+                                                  :method => "delete"} %></button>
+        <% end %>
+      </div>
+      <div class="panel-body">
+        <p><strong>Rating: </strong> <%= review.rating  %>/5 </p>
+        <p><%= review.content %></p>
+      </div>
+    </div>
   <% end %>
 <% else %>
   <p> <%= @product.title %> currently has no reviews!</p>

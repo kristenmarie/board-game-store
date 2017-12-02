@@ -1,13 +1,14 @@
-<div class="landing-page-welcome">
-  <h1>Welcome to The Peoples Meeples!</h1>
+<div id="all-games-h1">
+  <h1>Here is all of our bits and bobs!</h1>
 </div>
 
 <% if @products.any? %>
-  <div class="landing-page-products">
-    <ul>
-      <% @products.each do |product| %>
-        <%= link_to product.title, product_path(product) %>
-      <% end %>
-    </ul>
+    <% @products.each do |product| %>
+    <div class="all-products">
+      <h3><%= link_to product.title, product_path(product) %></h3>
+    </div>
+    <% end %>
   </div>
+<% else %>
+  <h4>We currently have no products in our inventory.</h4>
 <% end %>
